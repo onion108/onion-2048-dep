@@ -1,0 +1,121 @@
+#game_ver {
+	color: white;
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	user-select: none;
+	cursor: default;
+}
+#gv_w {
+	border-radius: 7px;
+	overflow: hidden;
+	filter: drop-shadow(#000 0.5px 0.5px 2px);
+}
+
+#gv_t {
+	background-color: green;
+	padding: 7px;
+}
+
+#gv_v {
+	background-color: black;
+	padding: 7px;
+}
+
+canvas {
+	border-radius: 7px;
+}
+
+div {
+	display: flex;
+	justify-content: center;
+}
+
+span.key {
+	background-color: #bbbbbb;
+	padding: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	border-radius: 5px;
+	margin: 2px;
+	user-select: none;
+	cursor: pointer;
+}
+
+button {
+	user-select: none;
+	cursor: pointer;
+	border: none;
+	padding: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background: #ffebeb;
+	border-radius: 114514px;
+	margin: 5px;
+	height: 35px;
+	filter: drop-shadow(#000 0px 1.5px 1.5px);
+	transition: all 0.25s ease-in-out;
+}
+
+button:hover {
+	filter: drop-shadow(#000 0px 1.5px 1px);
+	background: #eedada;
+	transform: scale(1.05);
+}
+
+button:active {
+	background: #ddc9c9;
+	filter: drop-shadow(#000 0px 1.5px 0.7px);
+	transform: scale(0.88);
+}
+
+textarea {
+	border: none;
+	margin: 8px;
+	border-radius: 7px;
+	background-color: #ffebeb;
+	padding: 5px;
+	filter: drop-shadow(#000 0px 1.5px 1.5px);
+}
+
+#tool-bar {
+	background-color: #ebebff;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 7px;
+	display: flex;
+	justify-content: center;
+	filter: drop-shadow(#000 0px 0px 1.5px);
+}
+
+div#key_viewer {
+	display: flex;
+	padding: 5px;
+	margin: 10px;
+}
+
+div#key_viewer_wrapper {
+	background-color: #eeeeee;
+	display: flex;
+	flex-direction: column;
+	border-radius: 7px;
+}
+
+div.diskey {
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 5px;
+	background-color: white;
+	border-radius: 7px;
+	font-size: 20px;
+	user-select: none;
+	cursor: default;
+	transition: all 0.125s ease-in-out;
+}
+
+div.diskey_placeholder {
+	background-color: #eee;
+}
